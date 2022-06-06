@@ -1,0 +1,6 @@
+There are 3 required endpoints, but please feel free to add as many more as you want:
+/api/applications returns all applications in the Application table.
+/api/applications/{id} returns a single application.
+/api/applications?category={categoryname}&date={daterange} which filters by category and/or date range. Date range must be inclusive and category should be case insensitive.
+Use Dapper to query data.db.
+In essence, we're looking for a well architected API and expect that most edge cases are handled well.
